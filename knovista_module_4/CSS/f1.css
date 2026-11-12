@@ -1,0 +1,15 @@
+p{border-style: ridge;   /* dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden */
+  border-width: 5px;
+  border-color: red;
+  background-color: lightblue;
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*border-top-style: dotted;
+border-right-style: dotted;
+border-bottom-style: dotted;
+border-left-style: dotted;*/
+
+/*border-radius: 25px;*/

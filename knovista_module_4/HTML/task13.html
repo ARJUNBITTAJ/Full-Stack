@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2 align="center">Student Registration Form</h2>
+
+    <form action="#" method="POST">
+        <!-- Roll no -->
+        <p>
+            <label>Roll no. : </label>
+            <input type="text" required>
+        </p>
+
+        <!-- Student name -->
+        <p>
+            <label>Student name : </label>
+            <input type="text" placeholder="First Name" required> - 
+            <input type="text" placeholder="Last Name" required>
+        </p>
+
+        <!-- Father's name -->
+        <p>
+            <label>Father's name : </label>
+            <input type="text" required>
+        </p>
+
+        <!-- Date of birth -->
+        <p>
+            <label>Date of birth : </label>
+            <input type="text" placeholder="Day" size="3" maxlength="2"> - 
+            <input type="text" placeholder="Month" size="3" maxlength="2"> - 
+            <input type="text" placeholder="Year" size="5" maxlength="4"> 
+            <i>(DD-MM-YYYY)</i>
+        </p>
+
+        <!-- Mobile no -->
+        <p>
+            <label>Mobile no. : </label>
+            <select>
+                <option value="+91">+91</option>
+                <option value="+1">+1</option>
+                <option value="+44">+44</option>
+            </select> - 
+            <input type="text" required>
+        </p>
+
+        <!-- Email id -->
+        <p>
+            <label>Email id : </label>
+            <input type="email" required>
+        </p>
+
+        <!-- Password -->
+        <p>
+            <label>Password : </label>
+            <input type="password" required>
+        </p>
+
+        <!-- Gender -->
+        <p>
+            <label>Gender : </label>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </p>
+
+        <!-- Department -->
+        <p>
+            <label>Department : </label>
+            <input type="checkbox" name="dept" value="CSE"> CSE
+            <input type="checkbox" name="dept" value="IT"> IT
+            <input type="checkbox" name="dept" value="ECE"> ECE
+            <input type="checkbox" name="dept" value="Civil"> Civil
+            <input type="checkbox" name="dept" value="Mech"> Mech
+        </p>
+
+        <!-- Course -->
+        <p>
+            <label>Course : </label>
+            <select>
+                <option selected disabled>--------------------- Select Current Course's ---------------------</option>
+                <option value="btech">B.Tech</option>
+                <option value="mtech">M.Tech</option>
+                <option value="bca">BCA</option>
+                <option value="mca">MCA</option>
+            </select>
+        </p>
+
+        <!-- Student photo -->
+        <p>
+            <label>Student photo : </label>
+            <input type="file">
+        </p>
+
+        <!-- City -->
+        <p>
+            <label>City : </label>
+            <input type="text">
+        </p>
+
+        <!-- Address -->
+        <p>
+            <label>Address : </label><br>
+            <textarea rows="4" cols="40"></textarea>
+        </p>
+
+        <!-- Register Button -->
+        <p align="center">
+            <button type="submit">Register</button>
+        </p>
+    </form>
+
+</body>
+</html>

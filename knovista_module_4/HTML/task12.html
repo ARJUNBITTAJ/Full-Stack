@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Student Registration Form</title>
+    </head>
+    <body>
+        <div style="color:blue; background-color:rgb(255, 81, 0);">
+        <h2 align="center">Student Registration Form</h2>
+        
+        <p>
+            <label>Roll no. : </label>
+            <input type="text">
+        </p>
+       
+        <p>
+            <label>Student name : </label>
+            <input type="text" placeholder="First Name"> - 
+            <input type="text" placeholder="Last Name">
+        </p>
+
+        <p>
+            <label>Father's name : </label>
+            <input type="text">
+        </p>
+
+        <p>
+            <label>Date of birth:</label>
+            <input type="text" placeholder="Day" size="3" maxlength="2"> - 
+            <input type="text" placeholder="Month" size="3" maxlength="2"> - 
+            <input type="text" placeholder="Year" size="5" maxlength="4"> 
+            <i>(DD-MM-YYYY)</i>
+        </p>
+
+        <p>
+            <label>Mobile no. : </label>
+            <input type="text" value="+91" readonly disabled> -
+            <input type="text" maxlength="10">
+        </p>
+
+        <p>
+            <label>Email id : </label>
+            <input type="email">
+        </p>
+
+        <p>
+            <label>Password : </label>
+            <input type="password">
+        </p>
+
+        <p>
+            <label>Gender : </label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </p>
+
+        <p>
+            <label>Department : </label>
+            <input type="checkbox" name="department" value="CSE"> CSE
+            <input type="checkbox" name="department" value="IT"> IT
+            <input type="checkbox" name="department" value="ECE"> ECE
+            <input type="checkbox" name="department" value="Civil"> Civil
+            <input type="checkbox" name="department" value="Mechanical"> Mech
+        </p>
+
+        <p>
+            <label>Course : </label>
+            <select>
+                <option selected disabled>--Select Course--</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="M.Tech">M.Tech</option>
+                <option value="B.A">B.A</option>
+                <option value="M.A">M.A</option>
+            </select>
+        </p>
+
+        <p>
+            <label>Student Photo : </label>
+            <input type="file">
+        </p>
+
+        <p>
+            <label>City : </label>
+            <input type="text">
+        </p>
+
+        <p>
+            <label>Address : </label>
+            <input type="text">
+        </p>
+
+        <p align="center">
+            <input type="button" value="Register">
+        </p>
+    </div>
+    </body>
+</html>
